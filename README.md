@@ -10,3 +10,6 @@ Wenn ihr ihn installiert habt, einfach "yarn" auf der Commandozeile eingeben und
 node_modules automatisch holen, wenn euch packages fehlen, bitte in die package.json eintragen
 
 !!!Bitte die node_modules zur git ignore Datei hinzufügen, prüfen ob das schon bei euch ist!!!
+
+# scss
+Bitte auf die scss form achten und auch die variablen in der /globals/variabels/ zu benutzen

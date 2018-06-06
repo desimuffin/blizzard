@@ -1,7 +1,11 @@
 @import "globals/variables";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "content/_content";
+@import "content/_nav";
 
 @import "layout/header";
 @import "layout/footer";
 
 @import "globals/globals";
+@import "globals/variables";

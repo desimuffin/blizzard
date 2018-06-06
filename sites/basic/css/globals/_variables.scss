@@ -43,55 +43,9 @@ $fontBig-mobile: 1.111rem; //20px
 /*font-family*/
 //todo: add font family
 
-
-/*bootstrap overwrites*/
-
 /*headlines*/
 $h1-font-size: 3.111rem; //56px
 $h2-font-size: 2.222rem; //40px
 $h3-font-size: 1.778rem; //32px
 $h4-font-size: 1.333rem; //24px
 $headings-margin-bottom: 1em;
-
-/*mobile headlines*/
-$h1-font-size-mobile: 2.312rem; //37px
-$h2-font-size-mobile: 1.75rem;  //28px
-$h3-font-size-mobile: 1.5rem;   //24px
-$h4-font-size-mobile: 1.312rem; //21px
-$headings-margin-bottom: 1em;
-
-$grid-gutter-width: 16px;
-$jumbotron-padding: 0.5rem;
-$body-color: $dark;
-$jumbotron-bg: transparent;
-$line-height-base: 1.429;
-$input-height: 56px;
-
-$primary: $accent;
-$info: $darkBlue;
-
-$modal-inner-padding: 24px;
-$modal-header-padding: 24px;
-$modal-lg: 992px;
-
-$alert-bg-level: 0;
-$alert-border-level: 0;
-
-$popover-max-width: 320px;
-$popover-header-bg: transparent;
-
-$breadcrumb-margin-bottom: 0;
-
-$breadcrumb-bg: transparent;
-$breadcrumb-padding-x: 0;
-$breadcrumb-divider: "keyboard_arrow_right";
-
-/*hamburger overwrites*/
-$hamburger-padding-x: 0;
-$hamburger-padding-y: 0;
-$hamburger-layer-width: 19px;
-$hamburger-layer-height: 2px;
-$hamburger-layer-spacing: 3px;
-$hamburger-layer-color: $accent;
-$hamburger-layer-border-radius : 0;
-$hamburger-hover-opacity: 1;
