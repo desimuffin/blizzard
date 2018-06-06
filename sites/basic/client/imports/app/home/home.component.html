@@ -1,0 +1,19 @@
+<div *ngIf="!loggedIn" class="text-center">
+    <h1>
+        PLS Login
+    </h1>
+</div>
+<div *ngIf="loadUserBoard">
+    <div class="d-flex flex-row  justify-content-center">
+        <div class="userbox" *ngFor="let user of userBoards; let i = index">
+            <h2>@{{usernames[user.userId]}}</h2>
+            <div class="entry" *ngFor="let entry of user.entries; let j = index">
+                <div *ngIf="j<6" class="card">
+                    <div class="card-block main" [innerHtml]="entry.content">
+                    </div>
+                    <div class="card-footer date">{{entry.createdAt | date: 'yyyy-mm-dd'}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

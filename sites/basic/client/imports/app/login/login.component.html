@@ -1,0 +1,17 @@
+<form [formGroup]="loginForm">
+    <div class="input-group">
+        <input formControlName="username"
+               class="form-control"
+               placeholder="Username">
+        <input formControlName="password"
+               class="form-control"
+               type="password"
+               placeholder="Password">
+        <span class="input-group-btn">
+            <button class="btn btn-primary" (click)="login()">Login</button>
+        </span>
+        <span class="input-group-btn">
+            <button class="btn btn-info" (click)="toRegister()">Register</button>
+        </span>
+    </div>
+</form>

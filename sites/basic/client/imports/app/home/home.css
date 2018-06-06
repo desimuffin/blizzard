@@ -1,0 +1,26 @@
+.userbox {
+  width: 250px;
+  height: 400px;
+  border-right: 1px solid #f7f7f7;
+  border-left: 1px solid #F7F7F7;
+  background-color: #F7F7F7;
+  padding: 5px;
+  margin: 5px;
+  color: #6c6c6c; }
+
+.entry {
+  color: black;
+  margin-top: 5px; }
+
+.date {
+  padding: 0;
+  margin: 1px;
+  text-align: right;
+  height: 15px;
+  font-size: 10px;
+  color: grey; }
+
+.main {
+  padding: 5px; }
+
+/*# sourceMappingURL=home.css.map */

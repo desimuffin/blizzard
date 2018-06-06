@@ -1,0 +1,97 @@
+/*colors*/
+$white: #FFFFFF;
+$accent: #E60014;
+$dark: #000000;
+$secondary: #7F7F7F;
+$disabled: #B2B2B2;
+$darkBlue: #73A0C8;
+$azure: #5FC3E6;
+$lightBlue: #C3E1F5;
+$lightGreen: #A0AF00;
+$yellow: #FFCD1E;
+$slate: #D26E5F;
+$orange: #EB690A;
+$nope: #F03E3E;
+$yep: #0CA678;
+$warning: #FFA94D;
+$footerBackground: #F1F3F5;
+$footerBorder: #E1E6E6;
+$inactive: #F2F2F2;
+$timeLineBorder: #D2D2D2;
+$accordionContentBackground: #F8F9FA;
+$alphaGray: #999;
+$switchDisable: #737378;
+$dotInactive: #DFE1E4;
+$lightGray: #FAFAFA;
+$accordionToggle: #D6D8DC;
+
+/*box-shadows*/
+$defaultBoxShadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2);
+
+/*font-size*/
+$fontBig: 1.278rem; //23px
+$font21: 1.167rem; //21px
+$fontNormal: 1rem; //18px
+$fontMedium: 0.889rem; //16px
+$fontSmall: 0.778rem; //14px
+$fontSmaller: 0.667rem; // 12px
+$fontExtraSmall: 0.556rem; // 10px
+
+/*font-size mobile*/
+$fontBig-mobile: 1.111rem; //20px
+
+/*font-family*/
+//todo: add font family
+
+
+/*bootstrap overwrites*/
+
+/*headlines*/
+$h1-font-size: 3.111rem; //56px
+$h2-font-size: 2.222rem; //40px
+$h3-font-size: 1.778rem; //32px
+$h4-font-size: 1.333rem; //24px
+$headings-margin-bottom: 1em;
+
+/*mobile headlines*/
+$h1-font-size-mobile: 2.312rem; //37px
+$h2-font-size-mobile: 1.75rem;  //28px
+$h3-font-size-mobile: 1.5rem;   //24px
+$h4-font-size-mobile: 1.312rem; //21px
+$headings-margin-bottom: 1em;
+
+$grid-gutter-width: 16px;
+$jumbotron-padding: 0.5rem;
+$body-color: $dark;
+$jumbotron-bg: transparent;
+$line-height-base: 1.429;
+$input-height: 56px;
+
+$primary: $accent;
+$info: $darkBlue;
+
+$modal-inner-padding: 24px;
+$modal-header-padding: 24px;
+$modal-lg: 992px;
+
+$alert-bg-level: 0;
+$alert-border-level: 0;
+
+$popover-max-width: 320px;
+$popover-header-bg: transparent;
+
+$breadcrumb-margin-bottom: 0;
+
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-x: 0;
+$breadcrumb-divider: "keyboard_arrow_right";
+
+/*hamburger overwrites*/
+$hamburger-padding-x: 0;
+$hamburger-padding-y: 0;
+$hamburger-layer-width: 19px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 3px;
+$hamburger-layer-color: $accent;
+$hamburger-layer-border-radius : 0;
+$hamburger-hover-opacity: 1;
