@@ -8,3 +8,5 @@ Wie ihr euch Yarn installiert steht in dieser Doku:
 https://yarnpkg.com/en/docs/install#debian-stable
 Wenn ihr ihn installiert habt, einfach "yarn" auf der Commandozeile eingeben und dann müsste er euch die 
 node_modules automatisch holen, wenn euch packages fehlen, bitte in die package.json eintragen
+
+!!!Bitte die node_modules zur git ignore Datei hinzufügen, prüfen ob das schon bei euch ist!!!
