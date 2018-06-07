@@ -6755,10 +6755,13 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+.navWrapper {
+  background-color: #000; }
+
 .nav {
   text-align: center;
   background: #000000;
-  border: 1px solid #7F7F7F;
+  border-bottom: 1px solid #7F7F7F;
   padding: 20px; }
 
 body {
