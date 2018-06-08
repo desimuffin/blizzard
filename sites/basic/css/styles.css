@@ -6756,13 +6756,17 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 .navWrapper {
-  background-color: #000; }
+  background-color: #000;
+  box-shadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2); }
 
 .nav {
   text-align: center;
   background: #000000;
-  border-bottom: 1px solid #7F7F7F;
-  padding: 20px; }
+  border-bottom: 1px solid #7F7F7F; }
+  .nav .nav-icon {
+    padding: 10px; }
+    .nav .nav-icon:hover {
+      background: #7F7F7F; }
 
 body {
   /* background

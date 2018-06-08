@@ -1,11 +1,19 @@
 .navWrapper{
   background-color: $black;
+  box-shadow: $defaultBoxShadow;
 }
 
 .nav {
   text-align: center;
   background: $dark;
   border-bottom: 1px solid $secondary;
-  padding: 20px;
+
+  .nav-icon{
+    padding: 10px;
+
+    &:hover{
+      background: $secondary;
+    }
+  }
 
 }
