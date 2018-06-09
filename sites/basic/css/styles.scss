@@ -4,10 +4,12 @@
 @import "../node_modules/owl.carousel/src/scss/owl.theme.default";
 @import "../node_modules/owl.carousel/src/scss/animate";
 
+@import "content/picTextBox";
+
+@import "globals/globals";
+@import "globals/variables";
+
 @import "layout/nav";
 @import "layout/header";
 @import "layout/footer";
 @import "layout/slider";
-
-@import "globals/globals";
-@import "globals/variables";
