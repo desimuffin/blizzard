@@ -1,0 +1,21 @@
+.navigation {
+  .navWrapper {
+    background-color: $black;
+    box-shadow: $defaultBoxShadow;
+    border-top: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+
+    .nav {
+      text-align: center;
+      background: $dark;
+
+      .nav-icon {
+        padding: 10px;
+
+        &:hover {
+          background: $secondary;
+        }
+      }
+    }
+  }
+}

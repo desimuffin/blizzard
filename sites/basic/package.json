@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "owl.carousel": "^2.3.4"
   }
 }

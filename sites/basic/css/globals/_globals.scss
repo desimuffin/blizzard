@@ -8,11 +8,6 @@ body{
 //jumpotron overwrite
 .jumbotron{
   padding-top: 0;
+  padding-bottom: 20px;
   background-color: unset;
-}
-
-//container overwrite
-.container{
-  background: $white;
-  box-shadow: $defaultBoxShadow;
 }
