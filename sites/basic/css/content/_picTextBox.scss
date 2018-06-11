@@ -1,0 +1,23 @@
+.ce_picTextbox{
+  overflow: hidden;
+  margin-bottom: 16px;
+  box-shadow: $defaultBoxShadow;
+  border-radius: 3px;
+  background-color: $white;
+
+  .textInner{
+    padding: 30px;
+
+    .subheader{
+      font-size: $fontMedium;
+      color: $darkBlue;
+    }
+  }
+
+  .pic{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 256px;
+  }
+}

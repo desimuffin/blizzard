@@ -6988,6 +6988,23 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 1; }
   100% {
     opacity: 0; } }
+.ce_picTextbox {
+  overflow: hidden;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: #FFFFFF; }
+  .ce_picTextbox .textInner {
+    padding: 30px; }
+    .ce_picTextbox .textInner .subheader {
+      font-size: 0.889rem;
+      color: #73A0C8; }
+  .ce_picTextbox .pic {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 256px; }
+
 body {
   /* background
   background: url(../pix/background.jpg) no-repeat center center fixed;
