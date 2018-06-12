@@ -1,8 +1,7 @@
 body{
-  /* background
-  background: url(../pix/background.jpg) no-repeat center center fixed;
+  background: url(../pix/logo/background.jpg) no-repeat center center fixed;
   background-size: cover;
-  */
+
 }
 
 //jumpotron overwrite
@@ -10,4 +9,12 @@ body{
   padding-top: 0;
   padding-bottom: 20px;
   background-color: unset;
+
+  &:first-child{
+    padding-top: 50px;
+  }
+}
+
+.container{
+  background: $accordionToggle;
 }

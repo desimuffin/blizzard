@@ -19,3 +19,18 @@
     }
   }
 }
+
+@include media-breakpoint-down(md) {
+  .navigation {
+    .navWrapper {
+      .nav {
+        .nav-icon {
+          img {
+            width: 50px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

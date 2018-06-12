@@ -7006,15 +7006,18 @@ a.text-dark:hover, a.text-dark:focus {
     min-height: 256px; }
 
 body {
-  /* background
-  background: url(../pix/background.jpg) no-repeat center center fixed;
-  background-size: cover;
-  */ }
+  background: url(../pix/logo/background.jpg) no-repeat center center fixed;
+  background-size: cover; }
 
 .jumbotron {
   padding-top: 0;
   padding-bottom: 20px;
   background-color: unset; }
+  .jumbotron:first-child {
+    padding-top: 50px; }
+
+.container {
+  background: #D6D8DC; }
 
 /*colors*/
 /*box-shadows*/
@@ -7035,6 +7038,14 @@ body {
       .navigation .navWrapper .nav .nav-icon:hover {
         background: #7F7F7F; }
 
+@media (max-width: 991.98px) {
+  .navigation .navWrapper .nav .nav-icon img {
+    width: 50px;
+    height: auto; } }
+.slider #owl-demo .owl-dots .owl-dot span {
+  background: #FFFFFF; }
+.slider #owl-demo .owl-dots .owl-dot.active span {
+  background: #000; }
 .slider #owl-demo .item img {
   display: block;
   width: 100%;
