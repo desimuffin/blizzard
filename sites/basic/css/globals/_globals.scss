@@ -1,6 +1,6 @@
 body{
-  background: url(../pix/logo/background.jpg) no-repeat center center fixed;
-  background-size: cover;
+  /*background: url(../pix/logo/background.jpg) no-repeat center center fixed;
+  background-size: cover;*/
 
 }
 
@@ -13,8 +13,17 @@ body{
   &:first-child{
     padding-top: 50px;
   }
+
+  &.last-child{
+    margin-bottom: 0;
+  }
 }
 
 .container{
   background: $accordionToggle;
+
+  &.content {
+    margin-top: 2em;
+    box-shadow: $defaultBoxShadow;
+  }
 }

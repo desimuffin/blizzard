@@ -10,6 +10,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url(../node_modules/font-awesome/css/font-awesome.css);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7006,8 +7007,36 @@ a.text-dark:hover, a.text-dark:focus {
     min-height: 256px; }
 
 body {
-  background: url(../pix/logo/background.jpg) no-repeat center center fixed;
-  background-size: cover; }
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #333; }
+
+.question {
+  font-weight: 600; }
+
+.answers {
+  margin-bottom: 20px; }
+
+.answers label {
+  display: block; }
+
+#submit {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px; }
+
+#submit:hover {
+  background-color: #38a; }
+
+body {
+  /*background: url(../pix/logo/background.jpg) no-repeat center center fixed;
+  background-size: cover;*/ }
 
 .jumbotron {
   padding-top: 0;
@@ -7015,9 +7044,14 @@ body {
   background-color: unset; }
   .jumbotron:first-child {
     padding-top: 50px; }
+  .jumbotron.last-child {
+    margin-bottom: 0; }
 
 .container {
   background: #D6D8DC; }
+  .container.content {
+    margin-top: 2em;
+    box-shadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2); }
 
 /*colors*/
 /*box-shadows*/
@@ -7026,13 +7060,13 @@ body {
 /*font-family*/
 /*headlines*/
 .navigation .navWrapper {
-  background-color: #000;
+  background-color: #292c2f;
   box-shadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2);
   border-top: 1px solid #7F7F7F;
   border-bottom: 1px solid #7F7F7F; }
   .navigation .navWrapper .nav {
     text-align: center;
-    background: #000000; }
+    background: #292c2f; }
     .navigation .navWrapper .nav .nav-icon {
       padding: 10px; }
       .navigation .navWrapper .nav .nav-icon:hover {
@@ -7049,8 +7083,7 @@ body {
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
-  margin-top: 80px; }
+  padding: 45px 50px; }
 
 .footer-distributed .footer-left p {
   color: #8f9296;
@@ -7103,7 +7136,7 @@ body {
 .slider #owl-demo .owl-dots .owl-dot span {
   background: #FFFFFF; }
 .slider #owl-demo .owl-dots .owl-dot.active span {
-  background: #000; }
+  background: #292c2f; }
 .slider #owl-demo .item img {
   display: block;
   width: 100%;
