@@ -1,5 +1,18 @@
 .slider{
   #owl-demo{
+    .owl-dots{
+      .owl-dot{
+        span {
+          background: $white;
+        }
+
+        &.active{
+          span{
+            background: $fancygrey;
+          }
+        }
+      }
+    }
     .item{
       img{
         display: block;
@@ -9,3 +22,6 @@
     }
   }
 }
+
+
+

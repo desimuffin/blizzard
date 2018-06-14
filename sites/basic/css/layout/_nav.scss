@@ -1,19 +1,34 @@
 .navigation {
   .navWrapper {
-    background-color: $black;
+    background-color: $fancygrey;
     box-shadow: $defaultBoxShadow;
     border-top: 1px solid $secondary;
     border-bottom: 1px solid $secondary;
 
     .nav {
       text-align: center;
-      background: $dark;
+      background: $fancygrey;
 
       .nav-icon {
         padding: 10px;
 
         &:hover {
           background: $secondary;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navigation {
+    .navWrapper {
+      .nav {
+        .nav-icon {
+          img {
+            width: 50px;
+            height: auto;
+          }
         }
       }
     }
