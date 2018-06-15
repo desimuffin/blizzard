@@ -7079,15 +7079,22 @@ body {
   background-color: #292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   width: 100%;
-  padding: 45px 50px; }
-  .footerNav .footerItem {
+  padding: 45px 50px;
+  color: #FFFFFF; }
+  .footerNav .footerLeft .footerItem, .footerNav .footerRight .footerItem {
     display: inline-block; }
-    .footerNav .footerItem a {
-      color: #fff;
+    .footerNav .footerLeft .footerItem a, .footerNav .footerRight .footerItem a {
       text-decoration: none;
-      margin-right: 20px; }
-    .footerNav .footerItem:hover {
+      margin-right: 20px;
+      color: #FFFFFF; }
+    .footerNav .footerLeft .footerItem:hover, .footerNav .footerRight .footerItem:hover {
       color: #000; }
+  .footerNav .footerLeft p, .footerNav .footerRight p {
+    font-size: 0.778rem;
+    margin-top: 20px; }
+  .footerNav .footerRight {
+    text-align: right;
+    font-size: 1.278rem; }
 
 .slider #owl-demo .owl-dots .owl-dot span {
   background: #FFFFFF; }

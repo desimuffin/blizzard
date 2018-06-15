@@ -3,19 +3,32 @@
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   width: 100%;
   padding: 45px 50px;
+  color: $white;
 
-  .footerItem{
-    display: inline-block;
+  .footerLeft, .footerRight {
+    .footerItem {
+      display: inline-block;
 
-    a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 20px;
+      a {
+        text-decoration: none;
+        margin-right: 20px;
+        color: $white;
+      }
+
+      &:hover {
+        color: #000;
+      }
     }
 
-    &:hover{
-      color: #000;
+    p {
+      font-size: $fontSmall;
+      margin-top: 20px;
     }
+  }
+
+  .footerRight{
+    text-align: right;
+    font-size: $fontBig;
   }
 }
 
