@@ -20,10 +20,9 @@ body{
 }
 
 .container{
-  background: $accordionToggle;
-
   &.content {
     margin-top: 2em;
     box-shadow: $defaultBoxShadow;
+    background: $accordionToggle;
   }
 }
