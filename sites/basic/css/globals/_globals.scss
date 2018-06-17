@@ -6,24 +6,17 @@ body{
 
 //jumpotron overwrite
 .jumbotron{
-  padding-top: 0;
-  padding-bottom: 20px;
+  padding: 48px 0 32px 0 !important;
   background-color: unset;
-
-  &:first-child{
-    padding-top: 50px;
-  }
-
-  &.last-child{
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
 }
 
+/*outer*/
 .container{
-  background: $accordionToggle;
-
   &.content {
-    margin-top: 2em;
     box-shadow: $defaultBoxShadow;
+    background: $accordionToggle;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }

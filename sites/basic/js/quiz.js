@@ -19,10 +19,11 @@ function buildQuiz() {
 
             // ...add an HTML radio button
             answers.push(
-                `<label>
+                `<label class="radiobtn">
 					<input type="radio" name="question${questionNumber}" value="${letter}">
 					${letter} :
 					${currentQuestion.answers[letter]}
+					<span class="checkmark"></span>
 				 </label>`
             );
         }
@@ -60,11 +61,13 @@ function showResults() {
             numCorrect++;
 
             // color the answers green
-            answerContainers[questionNumber].style.color = "green";
+            answerContainers[questionNumber].style.color = "#0CA678";
+
         } else {
             // if answer is wrong or blank
             // color the answers red
-            answerContainers[questionNumber].style.color = "red";
+            answerContainers[questionNumber].style.color = "#F03E3E";
+            $(".radiobtn").append("<i class=\"fas fa-check\"></i>");
         }
     });
 
