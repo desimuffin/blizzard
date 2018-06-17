@@ -67,7 +67,6 @@ function showResults() {
             // if answer is wrong or blank
             // color the answers red
             answerContainers[questionNumber].style.color = "#F03E3E";
-            $(".radiobtn").append("<i class=\"fas fa-check\"></i>");
         }
     });
 
