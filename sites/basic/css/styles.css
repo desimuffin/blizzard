@@ -6989,6 +6989,23 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 1; }
   100% {
     opacity: 0; } }
+.form .form-group input.form-control {
+  height: 56px;
+  line-height: 56px;
+  padding: 0 0.75rem;
+  font-size: 1.278rem;
+  color: #000000; }
+
+.ce_teaser {
+  text-align: center; }
+  .ce_teaser h1 {
+    margin-bottom: 0; }
+  .ce_teaser .subheader {
+    font-size: 1.778rem;
+    color: #7F7F7F;
+    padding-bottom: 60px;
+    margin: 0; }
+
 .ce_picTextbox {
   overflow: hidden;
   margin-bottom: 16px;
@@ -7087,18 +7104,22 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-.btn.btn-primary {
-  color: #EB690A;
-  background-color: transparent;
-  border-color: #EB690A; }
-.btn:hover {
-  color: #FFFFFF;
-  background-color: #EB690A;
-  border-color: #EB690A; }
-.btn:after {
-  content: "\f105";
-  font-family: "FontAwesome";
-  padding: 10px; }
+.btn {
+  outline: none; }
+  .btn.btn-primary {
+    outline: none;
+    color: #EB690A;
+    background-color: transparent;
+    border-color: #EB690A; }
+  .btn:hover {
+    color: #FFFFFF;
+    background-color: #EB690A;
+    border-color: #EB690A;
+    outline: none; }
+  .btn:after {
+    content: "\f105";
+    font-family: "FontAwesome";
+    padding: 10px; }
 
 /*colors*/
 /*box-shadows*/

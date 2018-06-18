@@ -23,7 +23,10 @@ body{
 
 //btn overwrite
 .btn{
+  outline: none;
+
   &.btn-primary{
+    outline: none;
     color: $orange;
     background-color: transparent;
     border-color: $orange;
@@ -33,6 +36,7 @@ body{
     color: $white;
     background-color: $orange;
     border-color: $orange;
+    outline: none;
   }
 
   &:after{
