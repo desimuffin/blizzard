@@ -1,0 +1,13 @@
+.form {
+  .form-group{
+    input {
+      &.form-control {
+        height: 56px;
+        line-height: 56px;
+        padding: 0 0.75rem;
+        font-size: 1.278rem;
+        color: #000000;
+      }
+    }
+  }
+}

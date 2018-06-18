@@ -72,6 +72,7 @@ function showResults() {
 
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} von ${myQuestions.length}`;
+    $("#results").addClass("resultsShow");
 
 }
 

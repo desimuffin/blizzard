@@ -11,12 +11,33 @@ body{
   margin-bottom: 0;
 }
 
-/*outer*/
+//outer
 .container{
   &.content {
     box-shadow: $defaultBoxShadow;
-    background: $accordionToggle;
+    background: $footerBackground;
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+}
+
+//btn overwrite
+.btn{
+  &.btn-primary{
+    color: $orange;
+    background-color: transparent;
+    border-color: $orange;
+  }
+
+  &:hover{
+    color: $white;
+    background-color: $orange;
+    border-color: $orange;
+  }
+
+  &:after{
+    content: "\f105";
+    font-family: "FontAwesome";
+    padding: 10px;
   }
 }

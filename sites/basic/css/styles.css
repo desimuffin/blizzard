@@ -6999,7 +6999,7 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 30px; }
     .ce_picTextbox .textInner .subheader {
       font-size: 0.889rem;
-      color: #73A0C8; }
+      color: #EB690A; }
   .ce_picTextbox .pic {
     background-size: cover;
     background-position: center center;
@@ -7008,11 +7008,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .quiz .question {
   font-weight: 600;
-  margin: 20px 0; }
+  margin: 20px 0;
+  border: 1px solid #999;
+  padding: 10px 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
   .quiz .question:first-child {
     margin-top: 0; }
 .quiz .answers {
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  margin-left: 10px; }
 .quiz .answers label {
   display: block; }
 .quiz .answers .radiobtn {
@@ -7031,30 +7035,42 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 0;
     cursor: pointer; }
     .quiz .answers .radiobtn input:checked ~ .checkmark {
-      background-color: #292c2f; }
+      background-color: #EB690A; }
   .quiz .answers .radiobtn .checkmark {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
+    height: 20px;
+    width: 20px;
+    background-color: #D2D2D2;
     border-radius: 50%; }
   .quiz .answers .radiobtn:hover input.checked ~ .checkmark {
-    background-color: #ccc; }
+    background-color: #EB690A; }
 
 #submit {
   font-family: sans-serif;
-  font-size: 20px;
-  background-color: #279;
-  color: #fff;
+  font-size: 1.167rem;
+  background-color: #EB690A;
+  color: #FFFFFF;
   border: 0;
   border-radius: 3px;
-  padding: 20px;
+  padding: 10px;
   cursor: pointer;
-  margin-bottom: 20px; }
+  margin: 20px 0;
+  width: 100%;
+  outline: none; }
+  #submit .submitStr {
+    padding-right: 10px; }
   #submit:hover {
-    background-color: #38a; }
+    background-color: #dd6208; }
+
+#results.resultsShow {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.167rem;
+  background-color: #EB690A;
+  color: #FFFFFF; }
 
 body {
   /*background: url(../pix/logo/background.jpg) no-repeat center center fixed;
@@ -7065,12 +7081,24 @@ body {
   background-color: unset;
   margin-bottom: 0; }
 
-/*outer*/
 .container.content {
   box-shadow: 0 3px 11px 1px rgba(0, 0, 0, 0.2);
-  background: #D6D8DC;
+  background: #F1F3F5;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+
+.btn.btn-primary {
+  color: #EB690A;
+  background-color: transparent;
+  border-color: #EB690A; }
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #EB690A;
+  border-color: #EB690A; }
+.btn:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  padding: 10px; }
 
 /*colors*/
 /*box-shadows*/

@@ -2,6 +2,9 @@
   .question{
     font-weight: 600;
     margin: 20px 0;
+    border: 1px solid $alphaGray;
+    padding: 10px 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 
     &:first-child{
       margin-top: 0;
@@ -9,7 +12,8 @@
   }
 
   .answers {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
   }
 
   .answers {
@@ -35,7 +39,7 @@
         cursor: pointer;
 
         &:checked ~ .checkmark{
-          background-color: $fancygrey;
+          background-color: $orange;
         }
       }
 
@@ -43,16 +47,16 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 25px;
-        width: 25px;
-        background-color: #eee;
+        height: 20px;
+        width: 20px;
+        background-color: $timeLineBorder;
         border-radius: 50%;
       }
 
       &:hover{
         input{
           &.checked ~ .checkmark{
-            background-color: #ccc;
+            background-color: $orange;
           }
         }
       }
@@ -62,17 +66,34 @@
 
 #submit{
   font-family: sans-serif;
-  font-size: 20px;
-  background-color: #279;
-  color: #fff;
+  font-size: $font21;
+  background-color: $orange;
+  color: $white;
   border: 0;
   border-radius: 3px;
-  padding: 20px;
+  padding: 10px;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin: 20px 0;
+  width: 100%;
+  outline: none;
+
+  .submitStr{
+    padding-right: 10px;
+  }
 
   &:hover{
-    background-color: #38a;
+    background-color: $darkOrange;
+  }
+}
+
+#results{
+  &.resultsShow {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: $font21;
+    background-color: $orange;
+    color: $white;
   }
 }
 
