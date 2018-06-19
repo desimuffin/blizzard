@@ -48,8 +48,8 @@ http://thenewbiverse.com/wp-content/uploads/2013/12/Half-Life-3.png
 Wallpaper:
 http://i.imgur.com/lHlVxZE.jpg
 
-#Quelle Infotext
+# Quelle Infotext
 
-#Destiny 2
+# Destiny 2
 
 https://mein-mmo.de/destiny-2/
