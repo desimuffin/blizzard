@@ -24,6 +24,9 @@ https://orig00.deviantart.net/ec5b/f/2017/092/7/e/destiny_2___icon_by_blagoicons
 Wallpaper
 https://hdwallsource.com/img/2017/10/destiny-2-wallpaper-61906-63763-hd-wallpapers.jpg
 
+Gamepic
+http://www.co-optimus.com/images/upload/image/reviews/Destiny2/Destiny2_CoOpReview_Screen4.jpg
+
 # Overwatch:
 
 Logo
