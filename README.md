@@ -35,6 +35,9 @@ https://orig00.deviantart.net/92b4/f/2016/035/5/5/overwatch___icon_by_blagoicons
 Wallpaper:
 https://hdwallsource.com/img/2018/1/overwatch-wallpaper-62844-64848-hd-wallpapers.jpg
 
+Gamepic
+https://image.redbull.com/rbcom/010/2016-05-24/1331796618363_2/0010/1/1600/1067/1/overwatch-e-a-nova-sensa%C3%A7%C3%A3o-dos-videogames.jpg
+
 # Heros of th storm:
 
 Logo
@@ -42,6 +45,9 @@ https://orig00.deviantart.net/19bf/f/2016/130/b/2/heroes_of_the_storm___icon_by_
 
 Wallpaper:
 http://hintergrundbild.org/w/18015
+
+Gamepic
+https://6images.cgames.de/images/gamestar/226/heroes-of-the-storm_6007885.jpg
 
 # Half life 3:
 
@@ -56,3 +62,11 @@ http://i.imgur.com/lHlVxZE.jpg
 # Destiny 2
 
 https://mein-mmo.de/destiny-2/
+
+# Overwatch
+
+Katarina
+
+# Heroes of the Storm
+
+Katarina
